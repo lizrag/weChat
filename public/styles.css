@@ -1,0 +1,38 @@
+#log {
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: rgb(217, 233, 187);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+h1 span {
+    background-color: rgb(155, 235, 211);
+    padding: 3px 10px;
+}
+
+.message {
+    width: fit-content;
+    max-width: 230px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.message span {
+    font-size: 10px;
+    color: rgb(54, 54, 54);
+}
+
+.message-other {
+    background-color: rgb(157, 168, 152);
+    align-self: flex-start;
+    border-radius: 15px 15px 15px 0;
+}
+
+.message-me {
+    background-color: rgb(142, 194, 118);
+    align-self: flex-end;
+    border-radius: 15px 15px 0 15px;
+}
